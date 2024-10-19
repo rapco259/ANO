@@ -4,7 +4,7 @@ import cv2 as cv
 
 # pip install opencv-python
 
-img = cv.imread('input/janzizka.jpg')
+img = cv.imread('../input/janzizka.jpg')
 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
 print(img.shape)  # height, width, rgb
 print(img[50, 50, 0])
