@@ -1,1 +1,0 @@
-# 3. cviko nebolo, ani prednaska
