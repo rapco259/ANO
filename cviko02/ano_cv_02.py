@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2 as cv2 #pip install opencv-python
 
-img = cv2.imread("/content/drive/MyDrive/Colab Notebooks/input/doggo.jpg")
+img = cv2.imread("cviko02/input/macicka.jpg")
 print(img.shape)
 
 img1 = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #opencv zobrazuje zložky v poradi BGR - divne farby su preto

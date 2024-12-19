@@ -6,7 +6,7 @@ img = cv.imread('../input/janzizka.jpg')
 img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 print(img.shape)
 
-hist = cv.calcHist(img,[0],
+hist = cv.calcHist([img],[0],
                   None,
                   [256],
                   [0, 256])
